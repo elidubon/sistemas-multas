@@ -1,0 +1,20 @@
+se necesita un sistema para el control de multas en la municipalidad
+ellos necesitan 3 procesos 
+
+ingresar las multas (se debe ingresar numero de placa(debe de ser 3 numeros y 3 letras eje. 111AAA), tipo de vehiculo(carro, moto, camion), monto)
+
+el pago de las multas (aqui por medio del ingreso de la placa se debe ver si tiene alguna multa en caso de existir debe poder pagarla(si tiene mas de una este solo podra pagar el total mas su mora) (campos a mostrar si tiene mora - placa, tipo carro, total de multas, total a pagar))
+
+ver el estado de las multas (aqui debe debe de haber un filtro con los tipos de estado A activo, P Pagada, M con Mora, todas (campos a mostrar- placa, estado, total de multas, total pagado)
+
+si una placa tiene mas de una multa este le sumara Q50 sobre el total de las multas que tenga acomulada
+
+que se debe realizar 
+tener el codigo funte en git
+realizar un diagrama de procesos, no requerido
+
+control de versinamiento 
+	poyecto full
+		front
+		back
+		documentacion
