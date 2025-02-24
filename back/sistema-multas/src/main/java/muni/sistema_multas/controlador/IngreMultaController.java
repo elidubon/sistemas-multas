@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/multas")
+@CrossOrigin(origins = "http://localhost:4200") // Permite solicitudes desde Angular
 public class IngreMultaController {
     @Autowired
     private IngreMultas multaService;
